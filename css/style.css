@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(233, 206, 211);
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+    margin: 20px auto;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 64px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  background-color: white;
+  
+}
+
+#message {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+#reset {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: white;
+  border: 2px solid black;
+}
